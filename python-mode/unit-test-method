@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Unit test method that fails
+# key: unit-test-method
+# --
+def test_fail(self):
+    self.fail("This unit test should fail!")

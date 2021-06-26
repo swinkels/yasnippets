@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Unit test class with a single test method, that fails
+# key: unit-test-class
+# --
+class $0Tests(${1:`(evil-insert-state)`unittest.TestCase}):
+    def test_fail(self):
+        self.fail("This unit test should fail!")

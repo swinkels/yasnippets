@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: assert all calls to mock method
+# key: mock-assert-call-args
+# --
+call_args = ${1:`(evil-insert-state)`method}.call_args_list
+self.assertEqual(${2:1}, len(call_args))
+
+${3:args}, ${4:kwargs} = call_args[0]  # destructure arguments of first call
+$0 = args  # destructure positional arguments
