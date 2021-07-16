@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Unit test skip decorator
+# key: unit-test-skip
+# --
+@unittest.skip("${1:`(evil-insert-state)`Reason}")
