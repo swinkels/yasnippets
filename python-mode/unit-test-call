@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Unit test call that fails
+# key: unit-test-call
+# --
+self.fail("This unit test should fail!")
