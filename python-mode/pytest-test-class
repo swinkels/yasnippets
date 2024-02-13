@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: pytest test class with a single test method, that fails
+# key: pytest-test-class
+# --
+class Test${1:`(evil-insert-state)`Feature}:
+    def test_fail(self):
+        assert False, "this test should fail"
+
+$0

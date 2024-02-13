@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: pytest parameterize decorator
+# key: pytest-parametrize
+# --
+@pytest.mark.parametrize("${1:`(evil-insert-state)`parameters}", ${2:iterable})
+$0

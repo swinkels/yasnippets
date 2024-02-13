@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: pytest raises
+# key: pytest-raises
+# --
+with pytest.raises(${1:`(evil-insert-state)`Error}) as excinfo:
+    $0

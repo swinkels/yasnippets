@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: pytest skip decorator
+# key: pytest-skip
+# --
+@pytest.mark.skip(reason="${1:`(evil-insert-state)`Needs some refactoring first}")
+$0
